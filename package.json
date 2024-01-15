@@ -1,4 +1,8 @@
 {
+  "scripts": {
+    "dev" : "npx tailwindcss -i ./static/src/input.css -o ./static/src/output.css --watch",
+    "test" : "echo \"hello world\" "
+  },
   "devDependencies": {
     "tailwindcss": "^3.4.0"
   }
